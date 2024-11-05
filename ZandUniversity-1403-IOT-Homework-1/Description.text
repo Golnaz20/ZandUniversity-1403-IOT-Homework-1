@@ -1,0 +1,9 @@
+Our problem is write a simple program for communication between two devices in chat mode using TCP/IP.
+
+Here, for the sake of simplicity ; we use the design of master and slave architecture.
+
+Other designs such as peer-to-peer design can be used to solve the problem. 
+
+But you need a more complex design that each device can act as both a client and a server.
+
+In this case, each device creates a socket for the input connection, and at the same time can connect to the sockets of other devices.
